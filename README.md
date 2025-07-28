@@ -16,7 +16,7 @@ A powerful time calculation tool built with Next.js that allows you to calculate
 
 ## 🚀 Demo
 
-Visit the live demo: [Time Calculator](https://your-vercel-app.vercel.app) *(Update this with your actual deployment URL)*
+Visit the live demo: [Time Calculator](https://time-calculator-drab.vercel.app/)
 
 ## 🛠️ Tech Stack
 

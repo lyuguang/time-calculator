@@ -108,6 +108,40 @@
   font-size: 16px;
   transition: all 0.3s ease;
   background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.inputGroup input[type="datetime-local"] {
+  color: #333 !important;
+  background: white !important;
+}
+
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit,
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit-fields-wrapper,
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit-text,
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit-month-field,
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit-day-field,
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit-year-field,
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit-hour-field,
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit-minute-field,
+.inputGroup input[type="datetime-local"]::-webkit-datetime-edit-ampm-field {
+  color: #333 !important;
+}
+
+/* 修复datetime-local的下拉箭头按钮 */
+.inputGroup input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  background-color: #667eea !important;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 1 !important;
+  filter: none !important;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+}
+
+.inputGroup input[type="datetime-local"]::-webkit-calendar-picker-indicator:hover {
+  background-color: #5a6fd8 !important;
 }
 
 .inputGroup input:focus,
